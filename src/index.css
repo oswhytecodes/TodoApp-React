@@ -95,17 +95,17 @@ input {
   margin-right: 1em;
 }
 
-
-
 .footer {
   display: flex;
-  max-width: 60%;
+  max-width: 70%;
   justify-content: space-between;
-  margin-inline: auto;
   align-items: center;
+  margin-inline: auto;
+  font-size: .8em;
 }
 .footer-section{
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 5px;
 }

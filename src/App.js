@@ -95,7 +95,8 @@ export default function App() {
         </div>
       </div>
       <br />
-
+      <br />
+<hr></hr>
       {/* footer */}
       <div className="footer">
         <div className="footer-section">
