@@ -65,7 +65,7 @@ export default function App() {
       {/* NEW TODO */}
       <div className="new-todo">
         <div
-        className="toggle-btns"
+          className="toggle-btns"
           style={{
             display: "flex",
             gap: "1em",
@@ -74,7 +74,7 @@ export default function App() {
           }}
         >
           <button className="filter-btn" onClick={() => setFilter("all")}>
-            ALL TODOS
+           ALL
           </button>
           <button
             className="filter-btn"
@@ -95,6 +95,22 @@ export default function App() {
         </div>
       </div>
       <br />
+
+      {/* footer */}
+      <div className="footer">
+        <div className="footer-section">
+          <p>Complete Todo</p>
+          <button>
+            <i className="fa-solid fa-check" />
+          </button>
+        </div>
+        <div className="footer-section">
+          <p>Delete Todo</p>{" "}
+          <button className="todo-button delete">
+            <i className="fa-solid fa-xmark" />
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
