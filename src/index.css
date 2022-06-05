@@ -33,10 +33,13 @@ input {
   font-size: 1.5rem;
   color: black;
   display: flex;
+  max-width: 20em;
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  margin-inline: auto;
 }
+
 .filter-todo {
   padding: 1rem;
 }
@@ -53,7 +56,12 @@ input {
   font-size: 15px;
   margin: 0 2px;
 }
+.todo-btns {
+  margin-right: 1em;
+}
 .todo-button {
   padding: 3px;
   margin: 2px;
+  margin-right: 1em;
+
 }
