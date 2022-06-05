@@ -29,21 +29,21 @@ export default function App() {
   };
 
   const filteredTodo = useMemo(() => {
-    let tasks = []
+    let tasks = [];
     switch (filter) {
       case "all":
         tasks = todos;
         break;
       case "incomplete":
-        tasks =  todos.filter((task) => !task.isComplete);
+        tasks = todos.filter((task) => !task.isComplete);
         break;
       case "complete":
-        tasks =  todos.filter((task) => task.isComplete);
+        tasks = todos.filter((task) => task.isComplete);
         break;
       default:
         tasks = todos;
     }
-    return tasks
+    return tasks;
   }, [todos, filter]);
 
   return (
@@ -61,21 +61,32 @@ export default function App() {
         />
       </form>
       <br />
-      <div
-        style={{
-          display: "flex",
-          gap: "1em",
-          width: "100%",
-          justifyContent: "center",
-        }}
-      >
-        <button onClick={() => setFilter("all")}>ALL TODOS</button>
-        <button onClick={() => setFilter("incomplete")}>INCOMPLETE</button>
-        <button onClick={() => setFilter("complete")}>COMPLETE</button>
-      </div>
+
       {/* NEW TODO */}
       <div className="new-todo">
-        <div>
+        <div
+        className="toggle-btns"
+          style={{
+            display: "flex",
+            gap: "1em",
+            width: "100%",
+            justifyContent: "space-between",
+          }}
+        >
+          <button className="filter-btn" onClick={() => setFilter("all")}>
+            ALL TODOS
+          </button>
+          <button
+            className="filter-btn"
+            onClick={() => setFilter("incomplete")}
+          >
+            INCOMPLETE
+          </button>
+          <button className="filter-btn" onClick={() => setFilter("complete")}>
+            COMPLETE
+          </button>
+        </div>
+        <div className="TodoList">
           <TodoList
             setTodos={setTodos}
             todos={todos}
