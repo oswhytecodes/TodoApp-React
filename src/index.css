@@ -1,19 +1,19 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-.App{
+.App {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,14 +50,12 @@ input {
 }
 .TodoList {
   width: 100%;
-
 }
 .TodoList:hover {
-  transition: all 1s ease-in ;
-
+  transition: all 1s ease-in;
 }
 .toggle-btns {
-  transition: all .2s ease-in ;
+  transition: all 0.2s ease-in;
   border: none;
   width: 100%;
   display: inline;
@@ -81,8 +79,7 @@ input {
 .filter-btn:hover {
   color: #eee;
   font-weight: 800;
-  transition: all .2s ease-in ;
-
+  transition: all 0.2s ease-in;
 }
 .todo {
   margin: 0.5rem;
@@ -127,7 +124,7 @@ input {
 .footer {
   width: 100%;
   display: flex;
-  max-width: 80%;
+  max-width: 100%;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
