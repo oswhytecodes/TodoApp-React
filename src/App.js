@@ -16,7 +16,6 @@ export default function App() {
     setValue(e.target.value);
   };
 
-  // console.log(todos)
   const handleSubmit = (e) => {
     e.preventDefault();
     // changes the todos state
@@ -48,21 +47,19 @@ export default function App() {
 
   return (
     <div className="App">
-      <br />
-      <br />
-      <br />
+      
       {/*  INPUT */}
-      <form onSubmit={handleSubmit}>
-        <input
-          value={value}
-          type="search"
-          onChange={handleChange}
-          placeholder="add todo..."
-        />
-      </form>
-      <br />
+      <div>
+        <form onSubmit={handleSubmit}>
+          <input
+            value={value}
+            type="search"
+            onChange={handleChange}
+            placeholder="add todo..."
+          />
+        </form>
 
-      {/* NEW TODO */}
+         {/* NEW TODO */}
       <div className="new-todo">
         <div
           className="toggle-btns"
@@ -74,7 +71,7 @@ export default function App() {
           }}
         >
           <button className="filter-btn" onClick={() => setFilter("all")}>
-           ALL
+            ALL TODOS
           </button>
           <button
             className="filter-btn"
@@ -96,8 +93,12 @@ export default function App() {
       </div>
       <br />
       <br />
-<hr></hr>
+      </div>
+
+
+     
       {/* footer */}
+
       <div className="footer">
         <div className="footer-section">
           <p>Complete Todo</p>
@@ -107,7 +108,7 @@ export default function App() {
         </div>
         <div className="footer-section">
           <p>Delete Todo</p>{" "}
-          <button className="todo-button delete">
+          <button>
             <i className="fa-solid fa-xmark" />
           </button>
         </div>

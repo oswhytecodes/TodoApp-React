@@ -1,25 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
-
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.App {
-  text-align: center;
-}
-
 input {
   border: 0.5px solid grey;
   border-radius: 10px;
-  padding: 4px;
+  width: 20em;
+  padding: 10px;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .new-todo {
   max-width: 80%;
@@ -38,24 +50,39 @@ input {
 }
 .TodoList {
   width: 100%;
-}
 
+}
+.TodoList:hover {
+  transition: all 1s ease-in ;
+
+}
 .toggle-btns {
-  background-color: rgb(208, 230, 207);
+  transition: all .2s ease-in ;
   border: none;
+  width: 100%;
+  display: inline;
+  background-color: rgb(208, 230, 207);
 }
 
 .filter-btn {
+  background-color: Transparent;
+  padding: 0 1em;
   font-weight: 700;
-  background-color: rgb(208, 230, 207);
+  color: #000;
+
   transform: translate(0, -60%);
-  padding: 0 10px;
   margin-top: 2em;
   border: none;
   cursor: pointer;
 }
+.toggle-btns:hover {
+  background-color: rgb(117, 212, 112);
+}
 .filter-btn:hover {
-  color: #555;
+  color: #eee;
+  font-weight: 800;
+  transition: all .2s ease-in ;
+
 }
 .todo {
   margin: 0.5rem;
@@ -66,7 +93,6 @@ input {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  transition: all 1s ease;
   margin-inline: auto;
 }
 
@@ -76,6 +102,9 @@ input {
 .todo li {
   flex: 1;
   list-style: none;
+}
+.todo:hover {
+  transition: all 1s ease-in-out;
 }
 .fa-check {
   color: green;
@@ -92,20 +121,23 @@ input {
 .todo-button {
   padding: 3px;
   margin: 2px;
-  margin-right: 1em;
+  margin-right: em;
 }
 
 .footer {
+  width: 100%;
   display: flex;
-  max-width: 70%;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  margin-inline: auto;
-  font-size: .8em;
-}
-.footer-section{
-  display: flex;
   justify-content: center;
+  gap: 2em;
+  font-size: 0.8em;
+  background-color: rgb(208, 230, 207);
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+
   align-items: center;
   gap: 5px;
 }
