@@ -11,20 +11,18 @@ const Todo = (props) => {
         };
       }
       return task;
-
     });
-    console.log("Update todo:", updatedTodo)
+    console.log("Update todo:", updatedTodo);
     //  the local storage updates
     localStorage.setItem("todos", JSON.stringify(updatedTodo));
     setTodos(updatedTodo);
   };
   //   todo is complete and removed from the UI
   const deleteTodo = () => {
-    const remainingTodo = todos.filter(task => task.id !== todo.id)
+    const remainingTodo = todos.filter((task) => task.id !== todo.id);
     localStorage.setItem("todos", JSON.stringify(remainingTodo));
 
-    setTodos(remainingTodo)
- 
+    setTodos(remainingTodo);
   };
   return (
     <section>
