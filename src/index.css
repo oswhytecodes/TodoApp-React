@@ -127,7 +127,12 @@ input {
 .footer {
   width: 100%;
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
+=======
+  max-width: 80%;
+  justify-content: space-between;
+>>>>>>> 9e88d2726a89fdfb6a6641af49cc44cda6cc30b9
   align-items: center;
   justify-content: center;
   gap: 2em;
