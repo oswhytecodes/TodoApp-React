@@ -34,7 +34,8 @@ input {
   margin-bottom: 3em;
 }
 .new-todo {
-  max-width: 80%;
+  max-width: 600px;
+
   width: 100%;
   padding: 0 1em;
   margin-inline: auto;
@@ -83,6 +84,7 @@ input {
 }
 .todo {
   margin: 0.5rem;
+  max-width: 600px;
   background: rgb(166, 228, 161);
   font-size: 1.5rem;
   color: black;
@@ -129,6 +131,7 @@ input {
   align-items: center;
   justify-content: center;
   gap: 2em;
+  padding: 0 .2em;
   font-size: 0.8em;
   background-color: rgb(208, 230, 207);
 }

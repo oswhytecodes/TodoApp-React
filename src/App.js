@@ -103,13 +103,13 @@ export default function App() {
 
       <div className="footer">
         <div className="footer-section">
-          <p>Complete Todo</p>
+          <p>Complete</p>
           <button>
             <i className="fa-solid fa-check" />
           </button>
         </div>
         <div className="footer-section">
-          <p>Delete Todo</p>{" "}
+          <p>Delete</p>{" "}
           <button>
             <i className="fa-solid fa-xmark" />
           </button>
