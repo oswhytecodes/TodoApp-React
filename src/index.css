@@ -118,7 +118,7 @@ input {
 .todo-button {
   padding: 3px;
   margin: 2px;
-  margin-right: em;
+  margin-right: 1em;
 }
 
 .footer {
