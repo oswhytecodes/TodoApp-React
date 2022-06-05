@@ -26,7 +26,9 @@ export default function App() {
     console.log(todos);
     setValue("");
   };
-
+  const styleDiv = {
+    color: "red",
+  };
   const filteredTodo = useMemo(() => {
     let tasks = [];
     switch (filter) {
@@ -47,7 +49,6 @@ export default function App() {
 
   return (
     <div className="App">
-      
       {/*  INPUT */}
       <div>
         <form onSubmit={handleSubmit}>
@@ -59,44 +60,45 @@ export default function App() {
           />
         </form>
 
-         {/* NEW TODO */}
-      <div className="new-todo">
-        <div
-          className="toggle-btns"
-          style={{
-            display: "flex",
-            gap: "1em",
-            width: "100%",
-            justifyContent: "space-between",
-          }}
-        >
-          <button className="filter-btn" onClick={() => setFilter("all")}>
-            ALL TODOS
-          </button>
-          <button
-            className="filter-btn"
-            onClick={() => setFilter("incomplete")}
+        {/* NEW TODO */}
+        <div className="new-todo">
+          <div
+            className="toggle-btns"
+            style={{
+              display: "flex",
+              gap: "1em",
+              width: "100%",
+              justifyContent: "space-between",
+            }}
           >
-            INCOMPLETE
-          </button>
-          <button className="filter-btn" onClick={() => setFilter("complete")}>
-            COMPLETE
-          </button>
+            <button className="filter-btn" onClick={() => setFilter("all")}>
+              ALL TODOS
+            </button>
+            <button
+              className="filter-btn"
+              onClick={() => setFilter("incomplete")}
+            >
+              INCOMPLETE
+            </button>
+            <button
+              className="filter-btn"
+              onClick={() => setFilter("complete")}
+            >
+              COMPLETE
+            </button>
+          </div>
+          <div className="TodoList">
+            <TodoList
+              setTodos={setTodos}
+              todos={todos}
+              filteredTodo={filteredTodo}
+            />
+          </div>
         </div>
-        <div className="TodoList">
-          <TodoList
-            setTodos={setTodos}
-            todos={todos}
-            filteredTodo={filteredTodo}
-          />
-        </div>
-      </div>
-      <br />
-      <br />
+        <br />
+        <br />
       </div>
 
-
-     
       {/* footer */}
 
       <div className="footer">
@@ -111,7 +113,9 @@ export default function App() {
           <button>
             <i className="fa-solid fa-xmark" />
           </button>
-        </div>
+        </div> 
+        |
+          <p>Special Thanks to <a href="https://github.com/obafemiolorungbon"> Obafemi</a></p>
       </div>
     </div>
   );
