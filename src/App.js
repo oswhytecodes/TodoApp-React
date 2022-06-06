@@ -22,13 +22,14 @@ export default function App() {
     const newTodo = { text: value, isComplete: false, id: uuidv4() };
     // localstorage to add the data
     localStorage.setItem("todos", JSON.stringify([...todos, newTodo]));
+   
+   if(value.length > 1) {
     setTodos([...todos, newTodo]);
-    console.log(todos);
+   }
+    
     setValue("");
   };
-  const styleDiv = {
-    color: "red",
-  };
+  
   const filteredTodo = useMemo(() => {
     let tasks = [];
     switch (filter) {
