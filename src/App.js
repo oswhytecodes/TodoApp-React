@@ -104,13 +104,13 @@ export default function App() {
       <div className="footer">
         <div className="footer-section">
           <p>Complete</p>
-          <button>
+          <button style={{background:"transparent", border:"none"}}>
             <i className="fa-solid fa-check" />
           </button>
         </div>
         <div className="footer-section">
           <p>Delete</p>{" "}
-          <button>
+          <button style={{background:"transparent", border:"none"}}>
             <i className="fa-solid fa-xmark" />
           </button>
         </div> 
