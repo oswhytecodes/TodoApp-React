@@ -12,7 +12,6 @@ const Todo = (props) => {
       }
       return task;
     });
-    console.log("Update todo:", updatedTodo);
     //  the local storage updates
     localStorage.setItem("todos", JSON.stringify(updatedTodo));
     setTodos(updatedTodo);
