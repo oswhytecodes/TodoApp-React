@@ -5,7 +5,8 @@
 
 ###Add a todo in the input field, and hit enter
 
-<img width="688" alt="Screen Shot 2022-06-06 at 1 22 02 AM" src="https://user-images.githubusercontent.com/92553207/172100047-6cac7a8e-5bb3-45b1-b72c-23790a466c77.png">
+<img width="604" alt="Screen Shot 2022-06-06 at 1 22 02 AM" src="https://user-images.githubusercontent.com/92553207/172100856-75b6e73d-6762-4573-9985-4a11ab51910c.png">
+
 
 ###Once you enter your tasks, you get a list that has a 'complete' or 'delete' button
 
