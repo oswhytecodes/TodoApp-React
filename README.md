@@ -22,6 +22,7 @@
 <img width="618" alt="Screen Shot 2022-06-06 at 1 23 54 AM" src="https://user-images.githubusercontent.com/92553207/172100392-7682f734-b18b-4d52-9e9f-d71007c189c2.png">
 
 ###Completed todos
+
 <img width="614" alt="Screen Shot 2022-06-06 at 1 24 07 AM" src="https://user-images.githubusercontent.com/92553207/172100444-f14a7eb9-94c8-4a72-820b-a62d20353304.png">
 
 
