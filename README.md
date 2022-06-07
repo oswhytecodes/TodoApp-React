@@ -4,7 +4,7 @@
 [Todo App with React jS](https://oswhyte-todoapp-react.netlify.app/)
 
 ### Add a todo in the input field, and hit enter
-### Once you enter your tasks, you get a list that has a 'complete' or 'delete' button
+### Once you enter your tasks, you get a list of todos, and each has a 'complete' or 'delete' button
 
 <img width="648" alt="Screen Shot 2022-06-06 at 10 14 52 PM" src="https://user-images.githubusercontent.com/92553207/172281461-3fa0f2a0-d361-4f31-9148-e72dd153308d.png">
 
