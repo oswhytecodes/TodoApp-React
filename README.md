@@ -3,27 +3,21 @@
 
 [Todo App with React jS](https://oswhyte-todoapp-react.netlify.app/)
 
-###Add a todo in the input field, and hit enter
+### Add a todo in the input field, and hit enter
+### Once you enter your tasks, you get a list that has a 'complete' or 'delete' button
 
-<img width="604" alt="Screen Shot 2022-06-06 at 1 22 02 AM" src="https://user-images.githubusercontent.com/92553207/172100856-75b6e73d-6762-4573-9985-4a11ab51910c.png">
-
-
-###Once you enter your tasks, you get a list that has a 'complete' or 'delete' button
-
-<img width="609" alt="Screen Shot 2022-06-06 at 1 23 38 AM" src="https://user-images.githubusercontent.com/92553207/172100112-937ed2db-0635-4a50-b310-7f82c54e2026.png">
+<img width="648" alt="Screen Shot 2022-06-06 at 10 14 52 PM" src="https://user-images.githubusercontent.com/92553207/172281461-3fa0f2a0-d361-4f31-9148-e72dd153308d.png">
 
 
-###You can filter through your tasks, by clicking each button at the top
+## You can filter through your tasks, by clicking each button at the top
 
-<img width="617" alt="Screen Shot 2022-06-06 at 1 23 20 AM" src="https://user-images.githubusercontent.com/92553207/172100332-d6910e4f-30ec-4cec-8c49-83396c9f6469.png">
+### Incomplete todos
+
+<img width="642" alt="Screen Shot 2022-06-06 at 10 15 00 PM" src="https://user-images.githubusercontent.com/92553207/172281497-a799d460-5937-4f01-9a84-ed4897db8f38.png">
 
 
-###Incomplete todos
+### Completed todos
 
-<img width="618" alt="Screen Shot 2022-06-06 at 1 23 54 AM" src="https://user-images.githubusercontent.com/92553207/172100392-7682f734-b18b-4d52-9e9f-d71007c189c2.png">
-
-###Completed todos
-
-<img width="614" alt="Screen Shot 2022-06-06 at 1 24 07 AM" src="https://user-images.githubusercontent.com/92553207/172100444-f14a7eb9-94c8-4a72-820b-a62d20353304.png">
+<img width="626" alt="Screen Shot 2022-06-06 at 10 15 08 PM" src="https://user-images.githubusercontent.com/92553207/172281523-79d835c7-c5d6-4c48-a157-fa355f9cfa0b.png">
 
 
