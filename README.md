@@ -20,4 +20,8 @@
 
 <img width="626" alt="Screen Shot 2022-06-06 at 10 15 08 PM" src="https://user-images.githubusercontent.com/92553207/172281523-79d835c7-c5d6-4c48-a157-fa355f9cfa0b.png">
 
+### Created a favicon
+
+<img width="98" alt="Screen Shot 2022-06-06 at 10 19 16 PM" src="https://user-images.githubusercontent.com/92553207/172281769-4b4df716-e9ff-4d5d-9a88-f1c88cc6e2f6.png">
+
 
